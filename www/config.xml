@@ -18,4 +18,5 @@
     </author>
 	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
 	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+	<script src="cordova.js"></script>
 </widget>
