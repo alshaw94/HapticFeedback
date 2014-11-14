@@ -3,8 +3,9 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
         versionCode = "10" 
-        version     = "3.6.3" >
+        version     = "0.0.0" >
 		<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+		<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
     <!-- versionCode is optional and Android only -->
 
     <name>PhoneGap Example</name>
