@@ -17,5 +17,5 @@
         Hardeep Shoker 
     </author>
 	<gap:plugin name="org.apache.cordova.dialogs" />
-	<!--<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" /> -->
+	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 </widget>
