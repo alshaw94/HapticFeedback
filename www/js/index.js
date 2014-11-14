@@ -2,21 +2,25 @@
 
 $(document).on("pagecreate","#pageone",function(){
   
-  	$('#tapholdtext').on("taphold",function(){
-    	$(this).hide();
- 	});                       
+                        
 
-	$('#taptext').on("tap",function(){
-    	$(this).css('color', 'red');
+	$('#tapanswer').on("tap",function random(){
+    	var result = Math.floor((Math.random() * 10) + 1);
+		
+		if(result < 4) 
+		{
+			alert("false");
+		}
+		else
+		{
+		alert("true");
+		}
+		
+		//alert(result);
+		
  	}); 
 
-	$('#swipetext').on("swipeleft",function(){
-    	$(this).css('color', 'green');
-  	});   
-	
-	$('#swipetext').on("swiperight",function(){
-    	$(this).css('color', 'blue');
-  	}); 
+ 
 
 
 });
