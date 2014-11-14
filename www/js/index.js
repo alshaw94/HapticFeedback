@@ -9,13 +9,13 @@ $(document).on("pagecreate","#pageone",function(){
 		
 		if(result < 4) 
 		{
-			alert("false");
+			//alert("false");
 			navigator.notification.beep(3);
 			//navigator.notification.vibrate(2000);
 		}
 		else
 		{
-			alert("true");
+			//alert("true");
 			navigator.notification.beep(10);
 			//navigator.notification.vibrate(5000);
 		}
