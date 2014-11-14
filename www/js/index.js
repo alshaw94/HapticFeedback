@@ -11,13 +11,13 @@ $(document).on("pagecreate","#pageone",function(){
 		{
 			alert("false");
 			navigator.notification.beep(3);
-			navigator.notification.vibrate(2000);
+			//navigator.notification.vibrate(2000);
 		}
 		else
 		{
 			alert("true");
 			navigator.notification.beep(10);
-			navigator.notification.vibrate(5000);
+			//navigator.notification.vibrate(5000);
 		}
 		
 		
