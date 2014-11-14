@@ -13,7 +13,7 @@ $(document).on("pagecreate","#pageone",function(){
 		}
 		else
 		{
-		alert("true");
+			alert("true");
 		}
 		
 		//alert(result);
