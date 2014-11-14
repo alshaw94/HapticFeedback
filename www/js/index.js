@@ -10,13 +10,14 @@ $(document).on("pagecreate","#pageone",function(){
 		if(result < 4) 
 		{
 			alert("false");
+			navigator.notification.beep(3);
 		}
 		else
 		{
 			alert("true");
+			navigator.notification.beep(10);
 		}
 		
-		//alert(result);
 		
  	}); 
 
